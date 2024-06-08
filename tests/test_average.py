@@ -1,8 +1,3 @@
-# 3 important cases to test
-# 1. Base cases
-# 2. General cases
-# 3. Edge cases
-
 from src.average import calculate_average
 
 
