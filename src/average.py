@@ -2,7 +2,7 @@ def calculate_average(numbers):
     """
     Calculate the average of a list of numbers
     :param numbers: the list of numbers
-    :return: the average of the given numbers or -1 if the list is empty
+    :return: the average of the given numbers or None if the list is empty
     """
     # Calculate the sum of the numbers
     sum = 0
