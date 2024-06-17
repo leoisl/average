@@ -11,7 +11,10 @@ def calculate_average(numbers):
 
     # Calculate the average
     amount_of_numbers = len(numbers)
-    average = sum // amount_of_numbers
+    if amount_of_numbers == 0:
+        return None
+
+    average = sum / amount_of_numbers
 
     return average
 
