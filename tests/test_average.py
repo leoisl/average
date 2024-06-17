@@ -1,10 +1,5 @@
 from src.average import calculate_average
 
-# cases:
-# 1. Base cases;
-# 2. General case;
-# 3. Edge cases;
-
 
 def test_average_one_sized_list():
     numbers = [4]
