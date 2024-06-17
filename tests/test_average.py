@@ -7,13 +7,10 @@ from src.average import calculate_average
 
 
 def test_average_one_sized_list():
-    # Arrange
     numbers = [4]
 
-    # Act
     actual = calculate_average(numbers)
 
-    # Assert
     expected = 4
     assert actual == expected
 
